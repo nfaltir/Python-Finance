@@ -1,4 +1,4 @@
-:money: Yahoo Finance
+:seedling: Yahoo Finance
 ===========================
 
 
