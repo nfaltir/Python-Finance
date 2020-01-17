@@ -24,7 +24,7 @@ Output
 Matplotlib Style Sheet :
 -----------------------
 
-1. bmh :yellow_heart:
+1. bmh :pineapple:
 2. classic
 3. Solarize_Light2
 4. seaborn-deep
