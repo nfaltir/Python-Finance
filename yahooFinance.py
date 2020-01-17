@@ -2,11 +2,27 @@ import yfinance as yf
 import pandas as pd
 
 
-msft = yf.Ticker("MSFT")
-print(msft)
+#user stock ticker input
+sTicker = str(input("Please enter stock ticker:"))
 
-#JSON data
-genInfo = msft.info
+#Retruns UPPER case ticker symbol
+stock = sTicker.upper()
+print("\nStock ticker:", stock)
 
-historicalData = msft.history(period="max")
-print(historicalData)
+
+stockObj = yf.Ticker(stock)
+print(stockObj)
+
+#General Data
+genData = stockObj.info
+
+#Historical Data
+
+histData = stockObj.history(period="max")
+
+print(genData)
+print(histData)
+
+
+
+
