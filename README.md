@@ -11,7 +11,10 @@ Packages
 
 Input
 -----------
-
+1. The program will prompt the user to enter any stock ticker (not case sensisitive)
+2. You must use a valid stock ticker symbol
 
 Output
 -------------------
+1. Program will return stock data
+2. Program will also give user the option to download data as a csv file :tada:
