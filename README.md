@@ -20,10 +20,10 @@ Output
 2. Program will also give user the option to download data as a csv file :tada:
 
 
-Matplotlib Style Sheet
+Matplotlib Style Sheet :
 -----------------------
-<h1>current fav</h1>
-1. bmh
+
+1. bmh :yellow_heart:
 2. classic
 3. Solarize_Light2
 4. seaborn-deep
