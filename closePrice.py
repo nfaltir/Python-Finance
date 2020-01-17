@@ -12,6 +12,6 @@ dailyPrice = stockObj.history(period="1d")
 length = len(dailyPrice)
 
 df = pd.DataFrame(dailyPrice)
-closePrice = pd.DataFrame(dailyPrice, columns=["Close"])
 
-print(closePrice)
+print(df['Close'])
+
