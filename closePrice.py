@@ -2,7 +2,7 @@
 import yfinance as yf
 import pandas as pd 
 
-print("")
+print("\n============================Most Recent stock price============================\n")
 stock = str(input("Please enter the stock ticker:"))
 stockObj = yf.Ticker(stock)
 

@@ -7,7 +7,13 @@ print("\n============================Download Stock Data========================
 
 stock = str(input("Please enter the stock ticker:"))
 stockObj = yf.Ticker(stock)
-hist_price_Data = stockObj.history(period="max")
+
+y = "\n[***** 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max============*****]\n"
+
+print(y)
+time = input("Please enter time frame?:")
+
+hist_price_Data = stockObj.history(period=time)
 df = pd.DataFrame(hist_price_Data)
 
 

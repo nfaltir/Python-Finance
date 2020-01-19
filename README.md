@@ -13,6 +13,7 @@ Input
 -----------
 1. The program will prompt the user to enter any stock ticker (not case sensisitive)
 2. You must use a valid stock ticker symbol
+3. Enter time frame (1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max)
 
 Output
 -------------------
