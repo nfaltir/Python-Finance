@@ -29,8 +29,8 @@ sActions = stockObj.actions
 # output
 # print(genData)
 print(histData)
-# print(dividend)
-# print(stockSplits)
-# print(sActions)
+print(dividend)
+print(stockSplits)
+#print(sActions)
 
 stop = input("")

@@ -8,10 +8,15 @@ import datetime as dt
 
 print("")
 stock = str(input("Please enter the stock ticker:"))
+
 stockObj = yf.Ticker(stock)
 
 
-dailyPrice = stockObj.history(period="max")
+
+y = "1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max"
+print(y)
+period = input("Please enter time frame?:")
+dailyPrice = stockObj.history(period=period)
 
 length = len(dailyPrice)
 
