@@ -6,21 +6,22 @@ from matplotlib import style
 import datetime as dt
 
 
-print("")
+print("\n=========================Stock Price Grapher=========================\n")
 stock = str(input("Please enter the stock ticker:"))
 
 stockObj = yf.Ticker(stock)
 
 
 
-y = "1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max"
+y = "\n[***** 1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max============*****]\n"
+
 print(y)
-period = input("Please enter time frame?:")
-dailyPrice = stockObj.history(period=period)
+time = input("Please enter time frame?:")
+timeFrame = stockObj.history(period=time)
 
-length = len(dailyPrice)
+length = len(timeFrame)
 
-df = pd.DataFrame(dailyPrice)
+df = pd.DataFrame(timeFrame)
 plt.style.use('bmh')
 plt.ylabel('Price ($USD)',fontsize=15)
 plt.xlabel('Date',fontsize=15)
