@@ -1,6 +1,9 @@
 :seedling: Yahoo Finance
 ===========================
 
+
+
+
 :hammer: Functionality
 ------------------------
 1. Get price historical data by specifying time frame
