@@ -1,10 +1,10 @@
 :seedling: Yahoo Finance
 ===========================
+Optimize stock analysis workflow :tada:
 
 
 
-
-:hammer: Functionality
+Functionality :hammer:
 ------------------------
 1. Get price historical data by specifying time frame
 2. Graph stock price
