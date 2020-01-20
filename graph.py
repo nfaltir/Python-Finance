@@ -19,7 +19,7 @@ print(y)
 time = input("Please enter time frame?:")
 timeFrame = stockObj.history(period=time)
 
-length = len(timeFrame)
+
 
 df = pd.DataFrame(timeFrame)
 plt.style.use('bmh')

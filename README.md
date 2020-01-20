@@ -1,6 +1,13 @@
 :seedling: Yahoo Finance
 ===========================
 
+:hammer: Functionality
+------------------------
+1. Get price historical data by specifying time frame
+2. Graph stock price
+3. Download stock data, specifiy file name, location, and type
+4. Get average stock price by specifying time frame
+
 
 Packages
 --------------
