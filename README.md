@@ -22,7 +22,7 @@ Output
 3. Graph stock price (Close)
 
 
-Matplotlib Style Sheet :
+Matplotlib Style Sheet 
 -----------------------
 
 1. bmh :pineapple:
