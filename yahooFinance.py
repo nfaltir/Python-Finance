@@ -10,8 +10,7 @@ stock = sTicker.upper()
 stockObj = yf.Ticker(stock)
 
 
-# General Data
-genData = stockObj.info
+
 
 # Historical Data
 histData = stockObj.history(period="max")
@@ -26,6 +25,9 @@ stockSplits = stockObj.splits
 sActions = stockObj.actions
 
 
+# General Data
+genData = stockObj.info
+
 
 
 
@@ -35,10 +37,10 @@ sActions = stockObj.actions
 
 
 # output
-# print(genData)
+#print(genData)
 #print(histData)
 #print(dividend)
 #print(stockSplits)
 #print(sActions)
 
-stop = input("")
+#stop = input("")

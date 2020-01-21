@@ -1,15 +1,18 @@
 :seedling: Yahoo Finance
 ===========================
-Optimize stock analysis workflow :tada:
+Optimize stock analysis workflow
 
 
 
-Functionality :hammer:
+Functionality
 ------------------------
-1. Get price historical data by specifying time frame
+1. Get historical data price by specifying time frame
 2. Graph stock price
 3. Download stock data, specifiy file name, location, and type
 4. Get average stock price by specifying time frame
+5. Get all average stock price in the available time frame 
+6. Available timeframe = [1d', '5d', '1mo', '3mo', '6mo', '1y', '2y', '5y', '10y', 'ytd', 'max]
+7. Get ALL general information of the stock
 
 
 Packages
